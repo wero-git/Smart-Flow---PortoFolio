@@ -1,9 +1,9 @@
 ---
 layout: null
-title: null
+title: SmartFlow Portfolio
 ---
 <head>
-  <title>SmartFlow Portfolio</title>
+
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/animations.css">
   <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet">
