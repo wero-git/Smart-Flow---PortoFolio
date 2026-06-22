@@ -12,6 +12,16 @@ color:#1E293B;
 line-height:1.6;
 }
 
+:root{
+  --primary:#6393CF;
+  --secondary:#91A18D;
+  --accent:#D96C62;
+  --bg:#F8FAFC;
+  --text:#1E293B;
+  --muted:#64748B;
+  --border:#E2E8F0;
+}
+
 nav{
 display:flex;
 justify-content:space-between;
