@@ -133,19 +133,23 @@ SMARTFLOW
 </div>
 <div class="contact-card">
      <form class="glass-card p-6 rounded-xl space-y-4" data-aos="fade-left">
+       <h3>Send your message</h3>
       <div>
         <label class="block text-xs uppercase text-slate-400 mb-1">Your Name</label>
         <input type="text" class="w-full bg-slate-900 border border-white/10 rounded p-2 text-sm focus:border-cyan-500 outline-none text-black">
       </div>
+       <p>  </p>
       <div>
         <label class="block text-xs uppercase text-slate-400 mb-1">Your Email</label>
         <input type="email" class="w-full bg-slate-900 border border-white/10 rounded p-2 text-sm focus:border-cyan-500 outline-none text-black">
       </div>
+       <p>  </p>
       <div>
         <label class="block text-xs uppercase text-slate-400 mb-1">Message</label>
         <textarea rows="3" class="w-full bg-slate-900 border border-white/10 rounded p-2 text-sm focus:border-cyan-500 outline-none text-black"></textarea>
       </div>
       <button type="submit" class="w-full py-2 rounded bg-gradient-to-r from-cyan-500 to-blue-600 hover:opacity-90 font-medium text-sm transition text-black">Send Message</button>
+       <p>  </p>
      </form>
 </div>
 </div>
