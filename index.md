@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+
 <html lang="en">
 
 <head>
@@ -87,7 +87,7 @@ SmartFlow is a portfolio showcasing digital transformation projects designed to 
   
 <div class="case-card">
   <h3>SmartFlow Clinic</h3>
-  <p>Appointments, inventory and analytics.</p>
+  <p>Appointments, inventory management and analystics.</p>
   <a href="cases/clinic.html">View Case</a>
 </div>
 
