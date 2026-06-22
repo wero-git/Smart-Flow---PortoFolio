@@ -1,0 +1,5 @@
+.service-card{transition:.4s;}
+.service-card:hover{transform: translateY(-10px);}
+.case-card{transition:.4s;}
+.social-icons a:hover{transform:translateY(-5px);}
+@keyframes float{0%{transform:translateY(0);} 50%{transform:translateY(-10px);} 100%{transform: translateY(0);}}
