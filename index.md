@@ -40,14 +40,13 @@ SMARTFLOW
   </div>
   
 <div class="hero-content">
-  <div data-aos="fade-up">
+  <div data-aos="fade-up"></div>
     <h1>Smart Solutions for Strong Flows</h1>
-  </div>
     <p>Discover practical digital transformation initiativesfor schools, clinics and SMEs.</p>
-<div class="buttons">
-  <a href="#cases" class="btn-primary">Explore Cases</a>
-  <a href="#contact" class="btn-secondary">Contact</a>
-</div>
+      <div class="buttons">
+        <a href="#cases" class="btn-primary">Explore Cases</a>
+        <a href="#contact" class="btn-secondary">Contact</a>
+      </div>
 </div>
 </section>
 
