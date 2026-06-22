@@ -23,8 +23,8 @@ SMARTFLOW
 </ul> </nav>
 
 <section id="about">
-  <h2>What is SmartFlow?</h2>
 <div class="about-card">
+   <h2>What is SmartFlow?</h2>
   <p>SmartFlow is a digital transformation portfolio developed to showcase practical solutions for process optimization, automation, business intelligence and operational excellence.</p>
   <p>The objective is to demonstrate how schools, clinics and SMEs can leverage accessible technologies to improve productivity, reduce administrative burden and make better decisions through data-driven insights.</p>
   <p>Each showcased case includes methodologies, deliverables and implementation approaches inspired by real-world business transformation projects.
