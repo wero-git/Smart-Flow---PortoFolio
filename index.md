@@ -1,12 +1,10 @@
 
 <html lang="en">
-
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>SmartFlow Portfolio</title>
-<link rel="stylesheet" href="css/style.css">
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/animations.css">
+  <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 </head>
 
 <body>
@@ -27,22 +25,11 @@ SMARTFLOW
 
 <section class="hero">
 <div class="hero-content">
-  <h1>
-Smart Solutions for Strong Flows
-</h1>
-
-<p>
-Discover practical digital transformation initiatives
-for schools, clinics and SMEs.
-</p>
-
+  <h1>Smart Solutions for Strong Flows</h1>
+    <p>Discover practical digital transformation initiativesfor schools, clinics and SMEs.</p>
 <div class="buttons">
-<a href="#cases" class="btn-primary">
-Explore Cases
-</a>
-<a href="#contact" class="btn-secondary">
-Contact
-</a>
+  <a href="#cases" class="btn-primary">Explore Cases</a>
+  <a href="#contact" class="btn-secondary">Contact</a>
 </div>
 </div>
 </section>
@@ -104,46 +91,40 @@ Contact
 </section>
 
 <section id="contact">
-  <h2>Contact</h2>
-  <div class="text-center space-y-2" data-aos="zoom-in">
-    <h2 class="text-3xl font-extrabold">
-      <span class="bg-gradient-to-r text-transparent bg-clip-text from-cyan-400 to-blue-500">Get In Touch</span>
-    </h2>
-    <p class="text-slate-400 text-sm" style="text-align: center !important;">Have an opportunity or want to discuss process automation? Let's connect!</p>
+  <h2>Get In Touch</h2>
+    <p>Let's discuss your next digital transformation initiative.</p>
+  <div class="contact-grid">
+  <div class="contact-card">
+  
+  <h3>Connect with SmartFlow</h3>
+    <p>Need help improving your operational processes? Let's connect.</p>
+  <div class="social-icons">
+    <a href="#"><i class="fab fa-facebook"></i></a>
+    <a href="#"><i class="fab fa-whatsapp"></i></a>
+    <a href="#"><i class="fab fa-linkedin"></i></a>
+    <a href="#"><i class="fab fa-tiktok"></i></a>
+    <a href="#"><i class="fas fa-envelope"></i></a>
   </div>
-
-  <div class="grid md:grid-cols-2 gap-8">
-    <div class="glass-card p-6 rounded-xl flex flex-col justify-between space-y-6" data-aos="fade-right">
-      <div>
-        <h3 class="text-lg font-semibold mb-2 text-white">Connect with us</h3>
-        <p class="text-sm text-slate-400 text-justify">Do you need any kind of help?</p>
-      </div>
-      <div class="flex space-x-6 text-3xl text-slate-300">
-        <a href="https://www.facebook.com"><i class="fab fa-facebook"></i></a>
-        <a href="https://www.whatsapp.com"><i class="fab fa-whatsapp"></i></a>
-        <a href="https://www.tiktok.com"><i class="fab fa-tiktok"></i></a>
-        <a href="https://www.linkedin.com"><i class="fab fa-linkedin"></i></a>
-        <a href="mailto:rodokomon24@gmail.com"><i class="fas fa-envelope"></i></a>
-      </div>
-      <p class="text-xs text-slate-500 font-mono">Designed by SmartFlow © 2026</p>
-    </div>
-    <form class="glass-card p-6 rounded-xl space-y-4" data-aos="fade-left">
+    <p>Designed by SmartFlow © 2026</p>
+</div>
+<div class="contact-card">
+     <form class="glass-card p-6 rounded-xl space-y-4" data-aos="fade-left">
       <div>
         <label class="block text-xs uppercase text-slate-400 mb-1">Your Name</label>
-        <input type="text" class="w-full bg-slate-900 border border-white/10 rounded p-2 text-sm focus:border-cyan-500 outline-none text-white">
+        <input type="text" class="w-full bg-slate-900 border border-white/10 rounded p-2 text-sm focus:border-cyan-500 outline-none text-black">
       </div>
       <div>
         <label class="block text-xs uppercase text-slate-400 mb-1">Your Email</label>
-        <input type="email" class="w-full bg-slate-900 border border-white/10 rounded p-2 text-sm focus:border-cyan-500 outline-none text-white">
+        <input type="email" class="w-full bg-slate-900 border border-white/10 rounded p-2 text-sm focus:border-cyan-500 outline-none text-black">
       </div>
       <div>
         <label class="block text-xs uppercase text-slate-400 mb-1">Message</label>
-        <textarea rows="3" class="w-full bg-slate-900 border border-white/10 rounded p-2 text-sm focus:border-cyan-500 outline-none text-white"></textarea>
+        <textarea rows="3" class="w-full bg-slate-900 border border-white/10 rounded p-2 text-sm focus:border-cyan-500 outline-none text-black"></textarea>
       </div>
-      <button type="submit" class="w-full py-2 rounded bg-gradient-to-r from-cyan-500 to-blue-600 hover:opacity-90 font-medium text-sm transition text-white">Send Message</button>
-    </form>
-  </div>
-  <p>smartflow@email.com</p>
+      <button type="submit" class="w-full py-2 rounded bg-gradient-to-r from-cyan-500 to-blue-600 hover:opacity-90 font-medium text-sm transition text-black">Send Message</button>
+     </form>
+</div>
+</div>
 </section>
 
 <footer>
@@ -151,6 +132,10 @@ Contact
 </footer>
 
 <script src="js/main.js"></script>
+<script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+<script>
+  AOS.init({
+    duration:1000, once:true});</script>
 </body>
 
 </html>
