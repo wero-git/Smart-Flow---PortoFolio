@@ -1,6 +1,7 @@
 
 <html lang="en">
 <head>
+  <title>SmartFlow Portfolio</title>
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/animations.css">
   <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet">
@@ -20,6 +21,15 @@ SMARTFLOW
 <li><a href="#cases">Cases</a></li>
 <li><a href="#contact">Contact</a></li>
 </ul> </nav>
+
+<section id="about">
+  <h2>What is SmartFlow?</h2>
+<div class="about-card">
+  <p>SmartFlow is a digital transformation portfolio developed to showcase practical solutions for process optimization, automation, business intelligence and operational excellence.</p>
+  <p>The objective is to demonstrate how schools, clinics and SMEs can leverage accessible technologies to improve productivity, reduce administrative burden and make better decisions through data-driven insights.</p>
+  <p>Each showcased case includes methodologies, deliverables and implementation approaches inspired by real-world business transformation projects.
+  </p> </div>
+</section>
 
 <section class="hero">
   <div class="hero-inner">
@@ -45,12 +55,6 @@ SMARTFLOW
         <a href="#contact" class="btn-secondary">Contact</a>
       </div>
     </div>
-</section>
-
-<section id="about">
-  <h2>What is SmartFlow ?</h2>
-<p>SmartFlow is a portfolio showcasing digital transformation projects designed to optimize processes, automate operations and improve business performance.
-</p>
 </section>
 
 <section id="services">
