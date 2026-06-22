@@ -24,8 +24,25 @@ SMARTFLOW
 </nav>
 
 <section class="hero">
+  <div class="stats">
+    <div>
+      <h2>4</h2>
+        <p>Case Studies</p>
+    </div>
+    <div>
+    <h2>3</h2>
+      <p>Service Packages</p>
+    </div>
+    <div>
+      <h2>20+</h2>
+        <p>Deliverables</p>
+    </div>
+  </div>
+  
 <div class="hero-content">
-  <h1>Smart Solutions for Strong Flows</h1>
+  <div data-aos="fade-up">
+    <h1>Smart Solutions for Strong Flows</h1>
+  </div>
     <p>Discover practical digital transformation initiativesfor schools, clinics and SMEs.</p>
 <div class="buttons">
   <a href="#cases" class="btn-primary">Explore Cases</a>
@@ -62,13 +79,20 @@ SMARTFLOW
 
 <section id="cases">
   <h2>Our Cases</h2>
+  
+  <div class="tech">
+    <span>Excel</span>
+    <span>Power BI</span>
+    <span>BPMN</span>
+  </div>
+ 
 <div class="case-container">
 <div class="case-card">
   <h3>SmartFlow School</h3>
   <p>Automation of academic reporting and payment tracking.</p>
   <a href="cases/school.html">View Case</a>
 </div>
-  
+ 
 <div class="case-card">
   <h3>SmartFlow Clinic</h3>
   <p>Appointments, inventory management and analystics.</p>
