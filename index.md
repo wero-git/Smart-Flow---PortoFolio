@@ -25,15 +25,6 @@ SMARTFLOW
 <li><a href="#contact">Contact</a></li>
 </ul> </nav>
 
-<section id="about">
-<div class="about-card">
-   <h2>What is SmartFlow?</h2>
-  <p>SmartFlow is a digital transformation portfolio developed to showcase practical solutions for process optimization, automation, business intelligence and operational excellence.</p>
-  <p>The objective is to demonstrate how schools, clinics and SMEs can leverage accessible technologies to improve productivity, reduce administrative burden and make better decisions through data-driven insights.</p>
-  <p>Each showcased case includes methodologies, deliverables and implementation approaches inspired by real-world business transformation projects.
-  </p> </div>
-</section>
-
 <section class="hero">
     <div class="hero-content" data-aos="fade-up">
       <h1>Smart Solutions for Strong Flows</h1>
@@ -59,6 +50,15 @@ SMARTFLOW
       </div>
     </div>
 </div>
+</section>
+
+<section id="about">
+<div class="about-card">
+   <h2>What is SmartFlow?</h2>
+  <p>SmartFlow is a digital transformation portfolio developed to showcase practical solutions for process optimization, automation, business intelligence and operational excellence.</p>
+  <p>The objective is to demonstrate how schools, clinics and SMEs can leverage accessible technologies to improve productivity, reduce administrative burden and make better decisions through data-driven insights.</p>
+  <p>Each showcased case includes methodologies, deliverables and implementation approaches inspired by real-world business transformation projects.
+  </p> </div>
 </section>
 
 <section id="services">
