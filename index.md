@@ -19,35 +19,33 @@ SMARTFLOW
 <li><a href="#services">Services</a></li>
 <li><a href="#cases">Cases</a></li>
 <li><a href="#contact">Contact</a></li>
-</ul>
-
-</nav>
+</ul> </nav>
 
 <section class="hero">
-  <div class="stats">
-    <div>
-      <h2>4</h2>
+  <div class="hero-inner">
+    <div class="stats" data-aos="fade-down">
+      <div>
+        <h2>4</h2>
         <p>Case Studies</p>
-    </div>
-    <div>
-    <h2>3</h2>
-      <p>Service Packages</p>
-    </div>
-    <div>
-      <h2>20+</h2>
+      </div>
+      <div>
+        <h2>3</h2>
+        <p>Service Packages</p>
+      </div>
+      <div>
+        <h2>20+</h2>
         <p>Deliverables</p>
+      </div>
     </div>
-  </div>
-  
-<div class="hero-content">
-  <div data-aos="fade-up"></div>
-    <h1>Smart Solutions for Strong Flows</h1>
-    <p>Discover practical digital transformation initiativesfor schools, clinics and SMEs.</p>
+    <div class="hero-content" data-aos="fade-up"></div>
+      <h1>Smart Solutions for Strong Flows</h1>
+      <p>Discover practical digital transformation initiatives for schools, clinics and SMEs.</p>
       <div class="buttons">
         <a href="#cases" class="btn-primary">Explore Cases</a>
         <a href="#contact" class="btn-secondary">Contact</a>
       </div>
-</div>
+    </div>
+  </div>
 </section>
 
 <section id="about">
@@ -115,43 +113,39 @@ SMARTFLOW
 
 <section id="contact">
   <h2>Get In Touch</h2>
-    <p>Let's discuss your next digital transformation initiative.</p>
+  <p>Let's discuss your next digital transformation initiative.</p>
   <div class="contact-grid">
-  <div class="contact-card">
-  
-  <h3>Connect with SmartFlow</h3>
-    <p>Need help improving your operational processes? Let's connect.</p>
-  <div class="social-icons">
-    <a href="#"><i class="fab fa-facebook"></i></a>
-    <a href="#"><i class="fab fa-whatsapp"></i></a>
-    <a href="#"><i class="fab fa-linkedin"></i></a>
-    <a href="#"><i class="fab fa-tiktok"></i></a>
-    <a href="#"><i class="fas fa-envelope"></i></a>
+    <div class="contact-card" data-aos="fade-right">
+      <h3>Connect with SmartFlow</h3>
+      <p>Need help improving your operational processes? Let's connect.</p>
+      <div class="social-icons">
+        <a href="#"><i class="fab fa-facebook"></i></a>
+        <a href="#"><i class="fab fa-whatsapp"></i></a>
+        <a href="#"><i class="fab fa-linkedin"></i></a>
+        <a href="#"><i class="fab fa-tiktok"></i></a>
+        <a href="mailto:rodokomon24@gmail.com"><i class="fas fa-envelope"></i></a>
+      </div>
+      <p>Designed by SmartFlow © 2026</p>
+    </div>
+    <div class="contact-card" data-aos="fade-left">
+      <form class="contact-form">
+        <h3>Send your message</h3>
+        <div class="form-group">
+          <label for="name">Your Name</label>
+          <input id="name" type="text">
+        </div>
+        <div class="form-group">
+          <label for="email">Your Email</label>
+          <input id="email" type="email">
+        </div>
+        <div class="form-group">
+          <label for="message">Message</label>
+          <textarea id="message" rows="4"></textarea>
+        </div>
+        <button type="submit" class="btn-primary">Send Message</button>
+      </form>
+    </div>
   </div>
-    <p>Designed by SmartFlow © 2026</p>
-</div>
-<div class="contact-card">
-     <form class="glass-card p-6 rounded-xl space-y-4" data-aos="fade-left">
-       <h3>Send your message</h3>
-      <div>
-        <label class="block text-xs uppercase text-slate-400 mb-1">Your Name</label>
-        <input type="text" class="w-full bg-slate-900 border border-white/10 rounded p-2 text-sm focus:border-cyan-500 outline-none text-black">
-      </div>
-       <p>  </p>
-      <div>
-        <label class="block text-xs uppercase text-slate-400 mb-1">Your Email</label>
-        <input type="email" class="w-full bg-slate-900 border border-white/10 rounded p-2 text-sm focus:border-cyan-500 outline-none text-black">
-      </div>
-       <p>  </p>
-      <div>
-        <label class="block text-xs uppercase text-slate-400 mb-1">Message</label>
-        <textarea rows="3" class="w-full bg-slate-900 border border-white/10 rounded p-2 text-sm focus:border-cyan-500 outline-none text-black"></textarea>
-      </div>
-      <button type="submit" class="w-full py-2 rounded bg-gradient-to-r from-cyan-500 to-blue-600 hover:opacity-90 font-medium text-sm transition text-black">Send Message</button>
-       <p>  </p>
-     </form>
-</div>
-</div>
 </section>
 
 <footer>
