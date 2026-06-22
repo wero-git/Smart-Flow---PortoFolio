@@ -45,7 +45,6 @@ SMARTFLOW
         <a href="#contact" class="btn-secondary">Contact</a>
       </div>
     </div>
-  </div>
 </section>
 
 <section id="about">
