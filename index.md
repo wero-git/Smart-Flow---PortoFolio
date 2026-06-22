@@ -1,4 +1,7 @@
-
+---
+layout: null
+title: null
+---
 <html lang="en">
 <head>
   <title>SmartFlow Portfolio</title>
@@ -32,6 +35,14 @@ SMARTFLOW
 </section>
 
 <section class="hero">
+    <div class="hero-content" data-aos="fade-up">
+      <h1>Smart Solutions for Strong Flows</h1>
+      <p>Discover practical digital transformation initiatives for schools, clinics and SMEs.</p>
+      <div class="buttons">
+        <a href="#cases" class="btn-primary">Explore Cases</a>
+        <a href="#contact" class="btn-secondary">Contact</a>
+      </div>
+    </div>  
   <div class="hero-inner">
     <div class="stats" data-aos="fade-down">
       <div>
@@ -47,14 +58,7 @@ SMARTFLOW
         <p>Deliverables</p>
       </div>
     </div>
-    <div class="hero-content" data-aos="fade-up"></div>
-      <h1>Smart Solutions for Strong Flows</h1>
-      <p>Discover practical digital transformation initiatives for schools, clinics and SMEs.</p>
-      <div class="buttons">
-        <a href="#cases" class="btn-primary">Explore Cases</a>
-        <a href="#contact" class="btn-secondary">Contact</a>
-      </div>
-    </div>
+</div>
 </section>
 
 <section id="services">
@@ -116,7 +120,7 @@ SMARTFLOW
 
 <section id="contact">
   <h2>Get In Touch</h2>
-  <p>Let's discuss your next digital transformation initiative.</p>
+  <p class="contact-intro">Let's discuss your next digital transformation initiative.</p>
   <div class="contact-grid">
     <div class="contact-card" data-aos="fade-right">
       <h3>Connect with SmartFlow</h3>
