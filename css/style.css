@@ -98,6 +98,14 @@ margin-bottom:50px;
 text-align:center;
 }
 
+.tech span{
+padding:6px 12px;
+border-radius:20px;
+background:#6393CF20;
+color:#6393CF;
+font-size:.8rem;
+}
+
 .service-container{
 display:grid;
 grid-template-columns:
@@ -129,14 +137,60 @@ gap:30px;
 padding:35px;
 background:white;
 border-radius:20px;
-box-shadow:
-0 4px 15px rgba(0,0,0,.05);
+transition:.4s;
+box-shadow: 0 4px 15px rgba(0,0,0,.05);
 }
 
 .case-card a{
 color:#D96C62;
 font-weight:bold;
 text-decoration:none;
+}
+
+.case-card:hover{
+transform:translateY(-10px);
+}
+
+.stats{
+display:flex;
+justify-content:center;
+gap:100px;
+margin-top:70px;
+}
+
+.contact-grid{
+display:grid;
+grid-template-columns:1fr 1fr;
+gap:40px;
+margin-top:60px;
+}
+
+.contact-card{
+padding:40px;
+border-radius:25px;
+background:rgba(255,255,255,.65);
+backdrop-filter:blur(15px);
+border:1px solid rgba(255,255,255,.2);
+box-shadow:
+0 10px 35px rgba(0,0,0,.05);
+}
+
+.social-icons{
+display:flex;
+gap:25px;
+margin-top:30px;
+font-size:2rem;
+}
+
+.social-icons a{
+color:#64748B;
+transition:.3s;
+}
+
+.social-icons a: hover{
+color:#D96C62;
+transform:
+translateY(-5px);
 }
 
 footer{
