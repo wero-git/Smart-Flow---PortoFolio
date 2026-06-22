@@ -2,7 +2,6 @@
 layout: null
 title: null
 ---
-<html lang="en">
 <head>
   <title>SmartFlow Portfolio</title>
   <link rel="stylesheet" href="css/style.css">
