@@ -67,7 +67,8 @@ align-items:center;
   color: #64748B;
   max-width: 720px;
   margin: 0 auto;
-  font-size:20px;
+  font-size:30px;
+  text-align: justify;
 }
 
 .hero {
@@ -278,18 +279,11 @@ box-shadow: 0 10px 35px rgba(0,0,0,.05);
 }
 
 .stats div{
-padding:25px;
-background:white;
+padding: 22px 18px;
+background: white rgba(255, 255, 255, 0.75);
 border-radius:20px;
 box-shadow: 0 5px 20px rgba(0,0,0,.05);
-}
-
-.stats > div {
-  padding: 22px 18px;
-  border-radius: 20px;
-  background: rgba(255, 255, 255, 0.75);
-  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
-  backdrop-filter: blur(10px);
+backdrop-filter: blur(10px); 
 }
 
 .stats h2{
