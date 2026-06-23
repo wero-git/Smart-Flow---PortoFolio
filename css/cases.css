@@ -104,6 +104,28 @@ align-items:center;
 margin-bottom:80px;
 }
 
+.hero-header{
+display:flex;
+align-items:center;
+gap:15px;
+margin-bottom:18px;
+}
+
+.hero-header h4{
+margin:0;
+font-size:1rem;
+font-weight:700;
+color:var(--text);
+}
+
+.hero-card p{
+margin:0;
+font-size:.92rem;
+line-height:1.6;
+color:var(--muted);
+text-align:justify;
+}
+
 .hero-left{
 display:flex;
 flex-direction:column;
@@ -199,7 +221,6 @@ display:flex;
 justify-content:center;
 }
 
-
 .hero-right img{
 width:100%;
 max-width:480px;
@@ -207,7 +228,6 @@ border-radius:30px;
 box-shadow:0 10px 40px rgba(0,0,0,.08);
 object-fit:cover;
 }
-
 
 @media(max-width:1000px){
 
