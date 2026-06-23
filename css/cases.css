@@ -189,7 +189,7 @@ border-radius:22px;
 background:white;
 box-shadow:var(--shadow);
 display:flex;
-flex-direction:line;
+flex-direction:row;
 gap:15px;
 align-items:flex-start;
 }
