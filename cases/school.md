@@ -1,144 +1,266 @@
+---
+layout:null
+title:SmartFlow School
+---
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>SmartFlow School</title>
+<link rel="stylesheet" href="../css/style.css">
+<link rel="stylesheet" href="../css/cases.css">
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" rel="stylesheet">
+<link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet">
+</head>
+<body>
+  
+<nav>
+<div class="logo">SMARTFLOW</div>
+<ul>
+<li><a href="../index.html#about">About</a></li>
+<li><a href="../index.html#services">Services</a></li>
+<li><a class="active" href="../index.html#cases">Cases</a></li>
+<li><a href="../index.html#contact">Contact</a></li>
+</ul>
+<a class="nav-btn" href="../index.html#contact">Get in touch</a>
+</nav>
+
+<div class="case-wrapper">
 <section class="case-hero">
-<div class="case-badge">
-Education Sector
+<div class="hero-left">
+<div class="badge"> <i class="fa-solid fa-school"></i>Education Sector
 </div>
   <h1>SmartFlow School</h1>
-  <p>Academic operations optimization through automation, data integration and business intelligence.</p>
-<div class="case-meta">
-<div>
-<h4>Tools</h4>
-<p>Excel • Power BI • BPMN • Forms • Power Query</p>
+<p class="hero-subtitle">
+Academic operations optimization through automation,data integration and business intelligence.
+</p>
+<div class="hero-cards">
+<div class="hero-card">
+<div class="icon blue"> <i class="fa-solid fa-briefcase"></i>
+</div>
+<div> <h4>Tools</h4>
+<p>Excel • Power BI • BPMN Forms • Power Query
+</p>
+</div>
+</div>
+<div class="hero-card">
+<div class="icon green"> <i class="fa-regular fa-clock"></i>
 </div>
 <div>
-<h4>Duration</h4>
+  <h4>Duration</h4>
 <p>2 Weeks</p>
+</div>
+</div>
+<div class="hero-card">
+<div class="icon red"> <i class="fa-solid fa-chart-column"></i>
 </div>
 <div>
 <h4>Complexity</h4>
 <p>Medium</p>
 </div>
 </div>
-</section>
-
-<section>
-<h2>Context</h2>
-<div class="case-card">
-<p>
-A private school in Yaoundé manages registrations, tuition payments, attendance records and report cards using independent Excel files and manual processes.
-This fragmented approach creates duplicated work, delays in reporting and limited visibility into students' financial and academic performance.
-</p>
+</div>
+</div>
+<div class="hero-right">
+<img src="../assets/images/school-bg.png">
 </div>
 </section>
 
-<section>
-<h2>Challenges</h2>
+<section class="info-grid">
+<div class="info-card">
+<h2 class="section-title"> <i class="fa-regular fa-file-lines"></i>Context</h2>
+<p>A private school in Yaoundé manages registrations, tuition payments, attendance records and report cards using independent Excel files and manual processes.</p>
+<br>
+<p>This fragmented approach creates duplicated work, delays in reporting and limited visibility into students' financial and academic performance.</p>
+</div>
+<div class="info-card">
+<h2 class="section-title"> <i class="fa-solid fa-bullseye"></i> Challenges </h2>
 <div class="challenge-grid">
-<div class="challenge">📄 Manual reports</div>
-<div class="challenge">💰 Payment follow-up difficulties</div>
-<div class="challenge">📊 Lack of dashboards</div>
-<div class="challenge">🔁 Duplicate data entries</div>
+<div class="challenge-item">
+<div class="challenge-icon blue"> <i class="fa-regular fa-file-lines"></i>
 </div>
-</section>
-
-<section>
-<h2>Objectives</h2>
-<div class="objective-grid">
-<div>
-  <h3>Reduce Manual Tasks</h3>
-    <p>Target:50%</p>
+<p>Manual reports</p>
 </div>
-<div>
-  <h3>Automate Reporting</h3>
-    <p>Target:100%</p>
+<div class="arrow">→</div>
+<div class="challenge-item">
+<div class="challenge-icon green"> <i class="fa-solid fa-sack-dollar"> </i></div>
+<p>Payment follow-up difficulties</p>
 </div>
-<div>
-  <h3>Payment Tracking</h3>
-    <p>Real-time monitoring</p>
+<div class="arrow">→
 </div>
-<div>
-  <h3>Performance Monitoring</h3>
-    <p>Interactive dashboards</p>
+<div class="challenge-item">
+<div class="challenge-icon green"> <i class="fa-solid fa-chart-column"></i>
+</div> <p>Lack of dashboards</p> </div>
+<div class="arrow">→</div>
+<div class="challenge-item">
+<div class="challenge-icon blue"> <i class="fa-solid fa-rotate"></i></div>
+  <p>Duplicate data entries</p>
+</div>
 </div>
 </div>
 </section>
 
-<section>
-<h2>Process Mapping</h2>
-<div class="case-card">
-<img src="../assets/images/bpmn-school.png">
-<p>Current process redesigned to centralize academic and financial information.</p>
+<section class="info-grid">
+<div class="info-card">
+  <h2 class="section-title"> <i class="fa-solid fa-flag"></i>Objectives</h2>
+<div class="objective-list">
+<div class="objective-item">
+<div> <i class="fa-regular fa-user"></i>Reduce Manual Tasks</div>
+<span>-50%</span>
+</div>
+<div class="objective-item">
+<div> <i class="fa-solid fa-gear"></i>Automate Reporting</div>
+<span>100%</span></div>
+<div class="objective-item">
+<div> <i class="fa-solid fa-dollar-sign"></i>Payment Tracking</div>
+<span class="red">Real-time monitoring</span>
+</div>
+<div class="objective-item">
+<div> <i class="fa-solid fa-chart-line"></i>Performance Monitoring
+</div>
+<span>Interactive dashboards</span> 
+</div>
+</div>
+</div>
+<div class="info-card">
+  <h2 class="section-title"> <i class="fa-solid fa-share-nodes"></i>Process Mapping (BPMN)</h2>
+<div class="process-group">
+  <h4>Current Process</h4>
+  <img src="../assets/images/bpmn-current-school.png">
+</div>
+<div class="process-group">
+  <h4>Proposed Process</h4>
+  <img src="../assets/images/bpmn-future-school.png">
+</div>
 </div>
 </section>
 
 <section>
-  <h2>SmartFlow Solution</h2>
-  <div class="service-container">
-  <div class="service-card">
-    <h3>Student Registry</h3>
-    <p>Centralized student database.</p>
-  </div>
-<div class="service-card">
-  <h3>Payment Tracker</h3>
-  <p>Automatic tuition monitoring.</p>
+<h2 class="section-title center"> <i class="fa-solid fa-wand-magic-sparkles"></i>SmartFlow Solution</h2>
+<div class="solution-grid">
+<div class="solution-card">
+<div class="solution-icon blue"> <i class="fa-solid fa-graduation-cap"></i>
 </div>
-<div class="service-card">
-      <h3>Attendance Module</h3>
-        <p>Daily attendance reports.</p>
+<h3>Student Registry</h3>
+<p>Centralized student database and profiles.</p>
 </div>
-<div class="service-card">
+<div class="solution-card">
+<div class="solution-icon green"> <i class="fa-solid fa-sack-dollar"></i> </div>
+<h3>Payment Tracker</h3>
+<p>Automatic tuition tracking and status monitoring.</p>
+</div>
+<div class="solution-card">
+<div class="solution-icon purple">
+<i class="fa-solid fa-calendar-check"></i>
+</div>
+<h3>Attendance Module</h3>
+<p>Daily attendance capture and reporting.</p>
+</div>
+<div class="solution-card">
+<div class="solution-icon yellow"> <i class="fa-solid fa-chart-column"></i>
+</div>
 <h3>Power BI Dashboard</h3>
-<p>KPIs and management reporting.</p>
+<p>KPIs and management reporting in real time.</p>
+</div>
+</div>
+</section>
+
+<section class="info-grid">
+<div class="info-card">
+<h2 class="section-title"> <i class="fa-solid fa-layer-group"></i>Technical Architecture</h2>
+<div class="architecture-flow">
+<div class="architecture-step"> <i class="fa-brands fa-wpforms"></i>
+<p>Forms</p>
+</div>
+<span>→</span>
+<div class="architecture-step">
+<i class="fa-solid fa-file-excel"></i>
+<p>Excel</p>
+</div>
+<span>→</span>
+<div class="architecture-step"> <i class="fa-solid fa-code-branch"></i>
+<p>Power Query</p>
+</div>
+<span>→</span>
+<div class="architecture-step"> <i class="fa-solid fa-chart-simple"></i>
+  <p>Power BI</p>
+</div>
+<span>→</span>
+<div class="architecture-step"> <i class="fa-solid fa-desktop"></i>
+<p>Dashboard</p>
+</div>
+</div>
+</div>
+<div class="info-card">
+<h2 class="section-title"> <i class="fa-solid fa-cube"></i>Deliverables</h2>
+<div class="deliverables-grid">
+<div class="deliverable"> <i class="fa-solid fa-circle-check"></i>BPMN Diagram</div>
+<div class="deliverable"> <i class="fa-solid fa-circle-check"></i>KPI Report</div>
+<div class="deliverable"> <i class="fa-solid fa-circle-check"></i>Excel Database</div>
+<div class="deliverable"> <i class="fa-solid fa-circle-check"></i>SOP Document</div>
+<div class="deliverable"> <i class="fa-solid fa-circle-check"></i>Power BI Dashboard</div>
+<div class="deliverable"> <i class="fa-solid fa-circle-check"></i>User Guide</div>
 </div>
 </div>
 </section>
 
 <section>
-  <h2>Technical Architecture</h2>
-  <div class="architecture">Google 
-    Forms
-    ↓
-    Excel Database
-    ↓
-    Power Query
-    ↓
-    Power BI
-    ↓
-    Management Dashboard
-  </div>
-</section>
-
-<section>
-<h2>Deliverables</h2>
-<div class="deliverables">
-<span>✔ BPMN Diagram</span>
-<span>✔ Excel Database</span>
-<span>✔ Dashboard</span>
-<span>✔ KPI Report</span>
-<span>✔ SOP Document</span>
-<span>✔ User Guide</span>
-</div>
-</section>
-
-<section>
-<h2>Expected Results</h2>
-<div class="objective-grid">
-<div>
-<h3>40 h/month</h3>
+<h2 class="section-title center"> <i class="fa-solid fa-chart-line"></i>Expected Results</h2>
+<div class="results-grid">
+<div class="result-card">
+<h2>40 h/month</h2>
 <p>Administrative savings</p>
+<div class="result-icon"> <i class="fa-regular fa-clock"></i></div></div>
+<div class="result-card green">
+  <h2>30%</h2>
+<p>Reduction in unpaid tuition</p>
+<div class="result-icon"> <i class="fa-solid fa-bullseye"></i></div>
 </div>
-  <div>
-    <h3>30%</h3>
-      <p>Reduction in unpaid tuition</p>
-  </div>
-<div>
-  <h3>Seconds</h3>
-  <p>Reporting time</p>
+<div class="result-card red">
+<h2>Seconds</h2>
+<p>Reporting time</p>
+<div class="result-icon"> <i class="fa-solid fa-bolt"></i>
+</div>
 </div>
 </div>
 </section>
 
-<section>
-<div style="text-align:center;">
-<a href="../index.html" class="btn-primary">Back Home</a>
+<section class="cta-section">
+<div class="cta-card">
+<h2>Ready to transform your school's operations?</h2>
+<p>Discover how SmartFlow solutions can simplify administration, improve visibility and empower data-driven decisions.</p>
+<div class="cta-buttons">
+<a href="../index.html#contact" class="btn-primary">Get in Touch</a>
+<a href="../index.html#cases" class="btn-secondary">Back Home</a>
+</div>
 </div>
 </section>
+
+<footer>
+<div class="footer-container">
+<div>
+<h3>SMARTFLOW</h3>
+<p>Smart Solutions for Strong Flows</p>
+</div>
+<div>
+<p>Academic Digital Transformation Portfolio</p>
+<p>Education • Clinics • SMEs</p>
+</div>
+<div class="footer-social">
+  <a href="#"> <i class="fab fa-facebook"></i></a>
+  <a href="#"> <i class="fab fa-linkedin"></i></a>
+  <a href="#"> <i class="fab fa-whatsapp"></i></a>
+  <a href="#"> <i class="fab fa-tiktok"></i></a>
+</div>
+</div>
+<div class="copyright">© 2026 SmartFlow Portfolio</div>
+</footer>
+<script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+<script>
+AOS.init({duration:1000, once:true});
+</script>
+</div>
+</body>
+</html>
