@@ -13,9 +13,12 @@ title:SmartFlow School
 <link rel="stylesheet" href="../css/cases.css">
 <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" rel="stylesheet">
 <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap"rel="stylesheet">
 </head>
-<body>
   
+<body>
 <nav>
 <div class="logo">SMARTFLOW</div>
 <ul>
