@@ -692,8 +692,10 @@ border-top:1px solid var(--border);
 }
 
 .footer-container{
-display:flex;
-justify-content:space-between;
+  display:grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  align-items:center;
+  text-align:center;
 }
 
 .footer-container h3{
